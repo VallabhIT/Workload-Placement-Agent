@@ -1,0 +1,778 @@
+{
+  "machines": [
+    {
+      "id": "m0000",
+      "cpu": 8,
+      "ram": 32.0,
+      "gpus": 0,
+      "cost": 0.5
+    },
+    {
+      "id": "m0001",
+      "cpu": 16,
+      "ram": 64.0,
+      "gpus": 0,
+      "cost": 1.0
+    },
+    {
+      "id": "m0002",
+      "cpu": 32,
+      "ram": 128.0,
+      "gpus": 0,
+      "cost": 2.0
+    },
+    {
+      "id": "m0003",
+      "cpu": 8,
+      "ram": 32.0,
+      "gpus": 1,
+      "cost": 1.5
+    },
+    {
+      "id": "m0004",
+      "cpu": 16,
+      "ram": 64.0,
+      "gpus": 1,
+      "cost": 3.0
+    },
+    {
+      "id": "m0005",
+      "cpu": 32,
+      "ram": 128.0,
+      "gpus": 2,
+      "cost": 6.0
+    },
+    {
+      "id": "m0006",
+      "cpu": 8,
+      "ram": 32.0,
+      "gpus": 0,
+      "cost": 0.5
+    },
+    {
+      "id": "m0007",
+      "cpu": 16,
+      "ram": 64.0,
+      "gpus": 0,
+      "cost": 1.0
+    },
+    {
+      "id": "m0008",
+      "cpu": 32,
+      "ram": 128.0,
+      "gpus": 0,
+      "cost": 2.0
+    },
+    {
+      "id": "m0009",
+      "cpu": 8,
+      "ram": 32.0,
+      "gpus": 1,
+      "cost": 1.5
+    }
+  ],
+  "jobs": [
+    {
+      "id": "task_000000",
+      "cpu": 321.0,
+      "mem": 36.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000001",
+      "cpu": 149.0,
+      "mem": 12.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000002",
+      "cpu": 51.0,
+      "mem": 16.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000003",
+      "cpu": 425.0,
+      "mem": 61.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000004",
+      "cpu": 191.0,
+      "mem": 35.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000005",
+      "cpu": 113.0,
+      "mem": 7.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000006",
+      "cpu": 122.0,
+      "mem": 11.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000007",
+      "cpu": 263.0,
+      "mem": 47.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000008",
+      "cpu": 433.0,
+      "mem": 64.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000009",
+      "cpu": 296.0,
+      "mem": 32.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000010",
+      "cpu": 153.0,
+      "mem": 21.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000011",
+      "cpu": 412.0,
+      "mem": 67.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000012",
+      "cpu": 311.0,
+      "mem": 33.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000013",
+      "cpu": 289.0,
+      "mem": 45.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000014",
+      "cpu": 373.0,
+      "mem": 62.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000015",
+      "cpu": 214.0,
+      "mem": 21.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000016",
+      "cpu": 230.0,
+      "mem": 27.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000017",
+      "cpu": 54.0,
+      "mem": 14.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000018",
+      "cpu": 356.0,
+      "mem": 58.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000019",
+      "cpu": 297.0,
+      "mem": 34.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000020",
+      "cpu": 284.0,
+      "mem": 30.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000021",
+      "cpu": 152.0,
+      "mem": 15.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000022",
+      "cpu": 376.0,
+      "mem": 58.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000023",
+      "cpu": 426.0,
+      "mem": 68.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000024",
+      "cpu": 243.0,
+      "mem": 24.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000025",
+      "cpu": 178.0,
+      "mem": 18.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000026",
+      "cpu": 77.0,
+      "mem": 6.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000027",
+      "cpu": 155.0,
+      "mem": 26.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000028",
+      "cpu": 324.0,
+      "mem": 36.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000029",
+      "cpu": 176.0,
+      "mem": 39.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000030",
+      "cpu": 219.0,
+      "mem": 27.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000031",
+      "cpu": 246.0,
+      "mem": 38.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000032",
+      "cpu": 281.0,
+      "mem": 38.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000033",
+      "cpu": 207.0,
+      "mem": 39.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000034",
+      "cpu": 405.0,
+      "mem": 66.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000035",
+      "cpu": 241.0,
+      "mem": 24.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000036",
+      "cpu": 151.0,
+      "mem": 31.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000037",
+      "cpu": 305.0,
+      "mem": 46.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000038",
+      "cpu": 235.0,
+      "mem": 25.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000039",
+      "cpu": 208.0,
+      "mem": 25.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000040",
+      "cpu": 208.0,
+      "mem": 18.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000041",
+      "cpu": 369.0,
+      "mem": 56.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000042",
+      "cpu": 188.0,
+      "mem": 37.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000043",
+      "cpu": 206.0,
+      "mem": 37.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000044",
+      "cpu": 365.0,
+      "mem": 65.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000045",
+      "cpu": 250.0,
+      "mem": 45.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000046",
+      "cpu": 158.0,
+      "mem": 23.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000047",
+      "cpu": 73.0,
+      "mem": 5.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000048",
+      "cpu": 321.0,
+      "mem": 33.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000049",
+      "cpu": 338.0,
+      "mem": 32.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000050",
+      "cpu": 231.0,
+      "mem": 16.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000051",
+      "cpu": 149.0,
+      "mem": 5.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000052",
+      "cpu": 197.0,
+      "mem": 39.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000053",
+      "cpu": 97.0,
+      "mem": 16.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000054",
+      "cpu": 71.0,
+      "mem": 18.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000055",
+      "cpu": 157.0,
+      "mem": 16.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000056",
+      "cpu": 218.0,
+      "mem": 35.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000057",
+      "cpu": 266.0,
+      "mem": 41.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000058",
+      "cpu": 155.0,
+      "mem": 17.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000059",
+      "cpu": 195.0,
+      "mem": 17.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000060",
+      "cpu": 234.0,
+      "mem": 20.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000061",
+      "cpu": 444.0,
+      "mem": 52.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000062",
+      "cpu": 372.0,
+      "mem": 51.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000063",
+      "cpu": 366.0,
+      "mem": 57.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000064",
+      "cpu": 197.0,
+      "mem": 26.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000065",
+      "cpu": 448.0,
+      "mem": 67.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000066",
+      "cpu": 206.0,
+      "mem": 18.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000067",
+      "cpu": 265.0,
+      "mem": 43.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000068",
+      "cpu": 141.0,
+      "mem": 6.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000069",
+      "cpu": 112.0,
+      "mem": 21.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000070",
+      "cpu": 403.0,
+      "mem": 60.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000071",
+      "cpu": 202.0,
+      "mem": 26.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000072",
+      "cpu": 155.0,
+      "mem": 27.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000073",
+      "cpu": 348.0,
+      "mem": 37.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000074",
+      "cpu": 179.0,
+      "mem": 33.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000075",
+      "cpu": 139.0,
+      "mem": 9.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000076",
+      "cpu": 158.0,
+      "mem": 26.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000077",
+      "cpu": 150.0,
+      "mem": 34.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000078",
+      "cpu": 150.0,
+      "mem": 35.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000079",
+      "cpu": 216.0,
+      "mem": 26.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000080",
+      "cpu": 106.0,
+      "mem": 18.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000081",
+      "cpu": 243.0,
+      "mem": 28.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000082",
+      "cpu": 265.0,
+      "mem": 45.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000083",
+      "cpu": 343.0,
+      "mem": 34.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000084",
+      "cpu": 418.0,
+      "mem": 53.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000085",
+      "cpu": 268.0,
+      "mem": 30.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000086",
+      "cpu": 165.0,
+      "mem": 30.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000087",
+      "cpu": 381.0,
+      "mem": 69.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000088",
+      "cpu": 282.0,
+      "mem": 30.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000089",
+      "cpu": 61.0,
+      "mem": 7.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000090",
+      "cpu": 193.0,
+      "mem": 32.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000091",
+      "cpu": 384.0,
+      "mem": 66.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000092",
+      "cpu": 239.0,
+      "mem": 16.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000093",
+      "cpu": 207.0,
+      "mem": 37.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000094",
+      "cpu": 85.0,
+      "mem": 8.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000095",
+      "cpu": 213.0,
+      "mem": 17.0,
+      "gpu": 1,
+      "duration": 300
+    },
+    {
+      "id": "task_000096",
+      "cpu": 145.0,
+      "mem": 9.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000097",
+      "cpu": 172.0,
+      "mem": 22.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000098",
+      "cpu": 233.0,
+      "mem": 35.0,
+      "gpu": 0,
+      "duration": 300
+    },
+    {
+      "id": "task_000099",
+      "cpu": 198.0,
+      "mem": 18.0,
+      "gpu": 1,
+      "duration": 300
+    }
+  ],
+  "n_machines": 10,
+  "n_jobs": 500
+}

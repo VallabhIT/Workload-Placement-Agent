@@ -1,0 +1,21 @@
+# Core dependencies
+gymnasium>=0.29.0
+stable-baselines3>=2.2.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+
+# For AMD GPU support (ROCm)
+torch>=2.0.0
+
+# Optional: For tensorboard logging
+tensorboard>=2.13.0
+
+# Optional: For data processing
+pyarrow>=12.0.0
+
+# Development
+jupyter>=1.0.0
+ipython>=8.14.0
